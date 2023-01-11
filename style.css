@@ -34,7 +34,8 @@ body {
     border: 0.4rem solid black;
     border-radius: 5%;
     background-color: rgba(0 0 0 / 0.8);
-    text-shadow: black 0 0 0.85rem; 
+    text-shadow: black 0 0 0.85rem;
+    transition: all 0.07s; 
 }
 
 .key-char {
@@ -51,5 +52,10 @@ body {
     letter-spacing: 0.1rem;
     display: block;
     text-align: center;
-   
+}
+
+.playing {
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+    transform: scale(1.1);
 }
